@@ -1,0 +1,90 @@
+def main():
+
+    
+    a=1
+    b=2
+    c=3
+    d=4
+    e=5
+    f=6
+    g=7
+    h=8
+    i=9
+    j=10
+    k=11
+    l=12
+    m=13
+    n=14
+    o=15
+    p=16
+    q=17
+    r=18
+    s=19
+    t=20
+    u=21
+    v=22
+    w=23
+    x=24
+    y=25
+    z=26
+    letter =input("enter letter")
+    if letter == "a":
+        print(a)
+    elif letter == "b":
+        print(b)
+    elif letter == "c":
+        print(c)
+    elif letter == "e":
+        print(e)
+    elif letter == "f":
+        print(f)
+    elif letter == "g":
+        print(g)
+    elif letter == "h":
+        print(h)
+    elif letter == "i":
+        print(i)
+    elif letter == "j":
+        print(j)
+    elif letter == "k":
+        print(k)
+    elif letter == "l":
+        print(l)
+    elif letter == "m":
+        print(m)
+    elif letter == "n":
+        print(n)
+    elif letter == "o":
+        print(o)
+    elif letter == "p":
+        print(p)
+    elif letter == "q":
+        print(q)
+    elif letter == "r":
+        print(r)
+    elif letter == "s":
+        print(s)
+    elif letter == "t":
+        print(t)
+    elif letter == "u":
+        print(u)
+    elif letter == "v":
+       print(v)
+    elif letter == "w":
+        print(w)
+    elif letter == "x":
+        print(x)
+    elif letter == "y":
+        print(y)
+    elif letter == "z":
+        print(z)
+    else:
+        print("not valled input")
+    leave =input("leave?")
+    if leave == "yes":
+        quit
+    elif leave == "no":
+        main()
+    else:
+        quit
+main()
